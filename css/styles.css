@@ -4,7 +4,17 @@
   padding: 0;
 }
 
-header {
+body{
+  background-color: #F4EEE5;
+}
+
+h1{
+  color:#3B4552;
+  text-align: center;
+  size: 50px;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,3 +135,106 @@ header {
     display: initial;
   }
 }
+
+/* header image */
+.mySlides {
+  display: none;
+}
+
+/* flex box */
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: #ffffff;
+  width: 270px;
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.card-image{
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  /* border-radius: 15px 15px 0 0; */
+}
+
+.featured-card-1{
+  background-image: url('/images/featured-artboard-1.png');
+}
+
+.featured-card-2{
+  background-image: url('/images/featured-artboard-2.png');
+}
+
+.featured-card-3{
+  background-image: url('/images/featured-artboard-3.png');
+}
+
+.featured-card-4{
+  background-image: url('/images/featured-artboard-4.png');
+}
+
+.card h3{
+  padding: 10px;
+  text-align: center;
+  color: #3B4552;
+  size: 50px;
+}
+
+.card span{
+  color: #7a757a;
+}
+
+
+.card p{
+  text-align: center;
+  size: 7px;
+}
+
+.card a{
+  background-color: #EDC344;
+  color: #232323;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+
+}
+
+.card a:hover{
+  background-color: #ffd451;
+}
+
+.card:hover{
+  background-color: rgb(255, 248, 235);
+  /* color: white; */
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+/* donate now btn */
+/* .btn a{
+  background-color: #EDC344;
+  color: #232323;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 610px;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  background-color: #ffd451;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+} */
+
